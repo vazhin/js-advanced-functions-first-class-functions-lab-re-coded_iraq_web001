@@ -6,7 +6,8 @@ const returnFirstTwoDrivers = function (arrOfDrivers) {
 
 const returnLastTwoDrivers = function(arrOfDrivers) {
   let newArr = []
-  newArr.push(arrOfDrivers.pop())
-  newArr.push(arrOfDrivers.pop())
+  let arrLength = arrOfDrivers.length
+  newArr.push(arrOfDrivers[arrLength - 2])
+  newArr.push(arrOfDrivers.pop(arrOfDrivers[arrLength - 2]))
   return newArr
 }
