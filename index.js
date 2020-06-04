@@ -12,3 +12,7 @@ const returnLastTwoDrivers = function(arrOfDrivers) {
   }
   return newArr
 }
+
+let selectingDrivers = [
+  returnFirstTwoDrivers()
+]
