@@ -7,4 +7,6 @@ const returnFirstTwoDrivers = function (arrOfDrivers) {
 const returnLastTwoDrivers = function(arrOfDrivers) {
   let newArr = []
   newArr.push(arrOfDrivers.pop())
+  newArr.push(arrOfDrivers.pop())
+  return newArr
 }
