@@ -10,7 +10,7 @@ const returnLastTwoDrivers = function(arrOfDrivers) {
   for (let i = 2; i > 0; i--){
     newArr.push(arrOfDrivers[arrLength - i])
   }
-  newArr.push(arrOfDrivers[arrLength - 2])
-  newArr.push(arrOfDrivers.pop(arrOfDrivers[arrLength - 1]))
+  // newArr.push(arrOfDrivers[arrLength - 2])
+  // newArr.push(arrOfDrivers.pop(arrOfDrivers[arrLength - 1]))
   return newArr
 }
